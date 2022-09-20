@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/home"
+    android:layout_height="match_parent"
+    tools:context=".RoundTwo">
+
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="500dp"
+        android:layout_marginRight="506dp"
+        android:src="@drawable/icon" />
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:id="@+id/Framediem2"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fom_start">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm: "
+            android:id="@+id/tvdiem2"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 "
+            android:id="@+id/tvdiemso2"
+            android:textColor="@color/white"
+            android:layout_marginLeft="65dp"
+            android:textSize="18sp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:background="@drawable/fom_start"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="95dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:textSize="18sp"
+            android:id="@+id/tvthoigian2"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="giây"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tvgiay2"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="142dp"
+        android:layout_height="430dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTroGiup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trợ giúp:"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvDoiCauhoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:paddingTop="5dp"
+            android:text="Đổi câu hỏi"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <FrameLayout
+            android:id="@+id/btnDoiCauhoi2"
+            android:layout_width="81dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttom_small">
+
+            <TextView
+                android:id="@+id/Xem100s2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="Xem"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="18sp"
+                android:layout_height="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_action_play" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame100diem2"
+            android:layout_width="81dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttom_small">
+
+            <TextView
+                android:id="@+id/tv100d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="100"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvdiem1002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="điểm"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="85dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgHome2"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_action_home" />
+
+            <CheckBox
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:id="@+id/imgVolume2"
+                android:button="@drawable/nhacnen"
+                android:src="@drawable/ic_action_volume"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/fom_start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCauhoi2"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Cristiano Ronaldo là nguời nước nào?"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnluachon2"
+                android:layout_width="130dp"
+                android:layout_height="44dp"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/FrameLayout_DapAnA2"
+            android:layout_width="177dp"
+            android:onClick="FrameLayout_DapAnA2"
+            android:layout_height="40dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginBottom="118dp"
+            android:background="@drawable/fom_start">
+
+            <TextView
+                android:id="@+id/tvDapAn_A2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A. Tây Ban Nha"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="177dp"
+            android:id="@+id/FrameLayout_DapAnB2"
+            android:layout_height="40dp"
+            android:onClick="FrameLayout_DapAnB2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="95dp"
+            android:background="@drawable/fom_start">
+
+            <TextView
+                android:id="@+id/tvDapAn_B2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="B. Pháp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/FrameLayout_DapAnC2"
+            android:layout_width="177dp"
+            android:layout_height="40dp"
+            android:onClick="FrameLayout_DapAnC2"
+            android:layout_marginLeft="135dp"
+            android:layout_marginBottom="65dp"
+            android:background="@drawable/fom_start">
+
+            <TextView
+                android:id="@+id/tvDapAn_C2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="C. Bồ Đào Nha"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="177dp"
+            android:onClick="FrameLayout_DapAnD2"
+            android:id="@+id/FrameLayout_DapAnD2"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="95dp"
+            android:background="@drawable/fom_start">
+
+            <TextView
+                android:id="@+id/tvDapAn_D2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="D. Anh "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="202dp">
+
+        <ImageView
+            android:layout_width="101dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/icon" />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="3"-->
+            <!--android:layout_marginTop="71dp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="20sp"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:id="@+id/tvmangso"-->
+
+            <!--/>-->
+        <!--<ImageView-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_marginTop="76dp"-->
+            <!--android:layout_marginLeft="65dp"-->
+            <!--android:src="@drawable/ic_action_favorite"-->
+            <!--/>-->
+    </FrameLayout>
+
+
+    
+</RelativeLayout>
